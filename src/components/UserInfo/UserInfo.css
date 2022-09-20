@@ -1,0 +1,39 @@
+.userinfo
+{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.userimg
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.userinfosection
+{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+}
+
+.userdetails
+{
+    background: rgba(220,220,220, 0.5);
+    padding: 2rem 1rem;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center; 
+    text-align: left;
+    min-width: 400px;
+   
+}
+
+.Backbutton
+{
+    margin-left: 10%;
+}

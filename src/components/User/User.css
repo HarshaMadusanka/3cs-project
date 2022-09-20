@@ -1,0 +1,52 @@
+.topic
+{
+    text-align: left;
+}
+
+.itemshow
+{
+    display: grid;
+    width: 100%;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.container
+{
+    overflow:hidden;
+}
+
+.singleitem
+{
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.singleitem a{
+    color: #000;
+    text-decoration: none;
+}
+
+.singleitem a:hover{
+    color: #000;
+
+}
+
+
+
+@media (max-width:1200px) 
+{
+    .itemshow
+    {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width:768px) 
+{
+    .itemshow
+    {
+        grid-template-columns: 1fr;
+    }
+}
+
